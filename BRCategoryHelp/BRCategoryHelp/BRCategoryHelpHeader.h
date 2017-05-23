@@ -14,6 +14,7 @@
 #ifdef __OBJC__
 
 #import "UIViewController+BRHelp.h"
+#import "BRGroupManagerHelp.h"
 
 #endif
 

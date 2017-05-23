@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661CD2461ED3D8B100DC8D93 /* BRGroupManagerHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CD2451ED3D8B100DC8D93 /* BRGroupManagerHelp.m */; };
 		66FE42751EA4B311008B8CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE42741EA4B311008B8CFF /* main.m */; };
 		66FE42781EA4B311008B8CFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE42771EA4B311008B8CFF /* AppDelegate.m */; };
 		66FE427B1EA4B311008B8CFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE427A1EA4B311008B8CFF /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		661CD2441ED3D8B100DC8D93 /* BRGroupManagerHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRGroupManagerHelp.h; sourceTree = "<group>"; };
+		661CD2451ED3D8B100DC8D93 /* BRGroupManagerHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRGroupManagerHelp.m; sourceTree = "<group>"; };
 		66FE42701EA4B311008B8CFF /* BRCategoryHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRCategoryHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FE42741EA4B311008B8CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66FE42761EA4B311008B8CFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661CD2431ED3D8B100DC8D93 /* BRGroupHelp */ = {
+			isa = PBXGroup;
+			children = (
+				661CD2441ED3D8B100DC8D93 /* BRGroupManagerHelp.h */,
+				661CD2451ED3D8B100DC8D93 /* BRGroupManagerHelp.m */,
+			);
+			path = BRGroupHelp;
+			sourceTree = "<group>";
+		};
 		66FE42671EA4B311008B8CFF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				66FE428B1EA4B334008B8CFF /* BRCategoryHelpHeader.h */,
+				661CD2431ED3D8B100DC8D93 /* BRGroupHelp */,
 				66FE428C1EA4B334008B8CFF /* UIViewController */,
 			);
 			path = BRCategoryHelp;
@@ -177,6 +190,7 @@
 				66FE427B1EA4B311008B8CFF /* ViewController.m in Sources */,
 				66FE428F1EA4B334008B8CFF /* UIViewController+BRHelp.m in Sources */,
 				66FE42781EA4B311008B8CFF /* AppDelegate.m in Sources */,
+				661CD2461ED3D8B100DC8D93 /* BRGroupManagerHelp.m in Sources */,
 				66FE42751EA4B311008B8CFF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +350,7 @@
 				66FE42891EA4B311008B8CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
