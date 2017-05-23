@@ -13,6 +13,14 @@
  */
 @property (nonatomic, assign) BOOL isNilOfBackButtonTitle;
 
+### BRGroupHelp 队列使用
+
+1:   //并行 队列 需要 用完时 br_leaveGroup
++ (void)br_asyncInGroupConcurrentQueueNotify:(void(^)(void))notifyBlock param:(br_paramsblock)blcok,...;
+2:   // 串行队列  需要 用完时 br_leaveGroup
++ (void)br_asyncInGroupSerialQueueNotify:(void(^)(void))notifyBlock param:(br_paramsblock)blcok,...;
+3:  //离线group
++ (void)br_leaveGroup:(dispatch_group_t)group;
 
 
 
